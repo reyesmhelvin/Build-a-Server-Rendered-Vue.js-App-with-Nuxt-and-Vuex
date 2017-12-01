@@ -18,5 +18,7 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
+# deployed @
+https://egghead-nuxt-rkddcnycgj.now.sh
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).

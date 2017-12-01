@@ -13,6 +13,8 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "now": "^8.5.4",
     "nuxt": "^1.0.0-rc11",
     "tachyons": "^4.9.0"
   },
