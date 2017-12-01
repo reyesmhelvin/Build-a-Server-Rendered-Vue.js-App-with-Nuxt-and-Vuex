@@ -1,12 +1,7 @@
 export const state = () => ({
-    counter:0
+    todos: [
+        {id: 0, task: 'sleep'},
+        {id: 1, task: 'eat'},
+        {id: 2, task: 'code'}
+    ]
 })
-
-export const mutations = {
-    increment(state){
-        state.counter++
-    },
-    decrement(state){
-        state.counter--
-    }
-}
