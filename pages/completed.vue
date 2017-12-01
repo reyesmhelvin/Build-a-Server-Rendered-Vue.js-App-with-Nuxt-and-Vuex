@@ -1,7 +1,7 @@
 <template>
   <div class="pa4 f3">
     <nav>
-      <nuxt-link to="/completed">Completed</nuxt-link>
+      <nuxt-link to="/">Home</nuxt-link>
     </nav>
     <h1 class="f2 bold center mw6">Makati Med Articles</h1>
     <ul class="list pl0 ml0 center mw6 ba b--light-silver br2">
