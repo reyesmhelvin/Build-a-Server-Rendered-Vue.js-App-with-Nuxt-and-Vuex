@@ -9,4 +9,4 @@ export const mutations = {
     decrement(state){
         state.counter--
     }
-} 
+}

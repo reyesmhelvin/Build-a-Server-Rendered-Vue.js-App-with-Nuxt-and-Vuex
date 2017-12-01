@@ -20,6 +20,9 @@ module.exports = {
   /*
   ** Build configuration
   */
+  css: [
+    "tachyons/css/tachyons.css"
+  ],
   build: {
     /*
     ** Run ESLint on save
