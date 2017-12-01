@@ -1,10 +1,7 @@
 <template>
-  <div class="pa4 f3">
-    <nav>
-      <nuxt-link to="/completed">Completed</nuxt-link>
-    </nav>
-    <h1 class="f2 bold center mw6">Makati Med Articles</h1>
-    <ul class="list pl0 ml0 center mw6 ba b--light-silver br2">
+  <div class="pa2 f3 code"> 
+    <h1 class="f2 bold mw6">Makati Med Articles</h1>
+    <ul class="list pl0 ml0 mw6 ba b--light-silver br2">
       <li v-for="todo of todos" :key="todo.id" class="ph3 pv3 bb b--light-silver">
         {{todo.title.rendered}}
       </li>
@@ -29,4 +26,6 @@ export default {
   }
 }
 </script>
+
+
 
